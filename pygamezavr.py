@@ -25,7 +25,7 @@ else:
     gamepad_connected = False
 
 
-# return chance (percentage)
+# returns chance (percentage)
 def chance(x, max = 101):
     return (x >= randint(1, max))
 
